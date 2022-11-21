@@ -1,0 +1,257 @@
+/*CSS para o cabeçario*/
+
+header {
+	background: url("fundo1.png");
+	padding: 10px 0;
+}
+
+.logo {
+	width: 35%;
+}
+
+.bloco {
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 90px;
+	right: 50px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FF0000;
+	font-family: 'Carter One', cursive;
+	font-weight: bold;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+nav a:hover {
+	color: #900D09;
+}
+
+
+/*CSS para o Rodapé*/
+
+footer {
+	text-align: center;
+	background: url("fundo1.png");
+	padding: 20px 0;
+}
+
+.logo-sigla {
+	width: 17%;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 20px 0 0;
+}
+
+
+/*Página Home*/
+
+.banner {
+	width: 100%;
+	border-top: 0.5em solid #FEFEFE;
+}
+
+/*Sessão - Sobre Dungeons and Dragons*/
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Carter One', cursive;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.sobrednd {
+	border-top: 0.3em solid #FEFEFE;
+	border-bottom: 0.5em solid #FEFEFE;
+	padding: 2em 0;
+	color: #FFFFFF;
+	background: url("fundo2.png");
+}
+
+.largura-sobrednd {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.sobrednd p:not(.finalidade) {
+	margin: 0 0 1em;
+	color: #FEFEFE;
+	font-family: 'Heebo', sans-serif;
+}
+
+.sobrednd p:not(.finalidade) {
+	text-align: justify;
+}
+
+.sobrednd strong, .futuro strong, .comecando strong {
+	font-weight: bold;
+}
+
+.sobrednd em, .comecando em {
+	font-style: italic;
+}
+
+.finalidade {
+	margin: 2em 2em 2em 8em;
+	color: #FEFEFE;
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.dice {
+	width: 115px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+/*Sessão - Vantanges de Jogar RPG*/
+
+.vantagens {
+	padding: 2em 0;
+	background: #FEFEFE;
+}
+
+.conteudo-vantagens {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.lista-vantagens {
+	width: 30%;
+	margin-left: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	font-family: 'Heebo', sans-serif;
+	font-style: italic;
+	line-height: 2em;
+}
+
+.itens:before {
+	content: "🎲 ";
+	color: red;
+}
+
+.mesa-rpg {
+	width: 30%;
+	margin-left: 5%;
+	transition: 400ms;
+}
+
+.mesa-rpg:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px 2px #000000;
+}
+
+/*Sessão - Futuro de Dungeons and Dragons*/
+
+.futuro {
+	padding: 2em 0;
+	background: url("fundo8.png");
+}
+
+.futuro p {
+	margin: 0 0 1em;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+}
+
+.video {
+	width: 560px;
+	margin: 1em auto;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: #FEFEFE;
+}
+
+.mapa-conteudo, .texto-mapa {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+}
+
+.localidade {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+/*Página Jogo*/
+
+/*Sessão Começando*/
+
+.titulo-comecando {
+	font-size: 2em;
+	font-family: 'Carter One', cursive;
+	margin: 0 0 1em;
+	clear: right;
+}
+
+.comecando {
+	padding: 2em 0;
+}
+
+.largura-comecando {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.comecando p:not(.trecho) {
+	margin: 0 0 1em;
+	font-family: 'Heebo', sans-serif;
+}
+
+.comecando p:not(.trecho) {
+	text-align: justify;
+}
+
+.trecho {
+	margin: 1em 31em 1em 2em;
+	padding: 1em;
+	color: #FEFEFE;
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	background: black;
+	border-radius: 10px;
+}
+
+.castle {
+	width: 450px;
+	float: right;
+	margin: 20px 0 20px 50px;
+	transition: 400ms;
+}
+
+.castle:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px 2px #000000;
+}
