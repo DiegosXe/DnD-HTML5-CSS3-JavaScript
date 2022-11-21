@@ -148,11 +148,6 @@ footer {
 	line-height: 2em;
 }
 
-.itens:before {
-	content: "🎲 ";
-	color: red;
-}
-
 .mesa-rpg {
 	width: 30%;
 	margin-left: 5%;
