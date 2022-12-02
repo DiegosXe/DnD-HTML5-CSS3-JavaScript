@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=VSCode&message=1.73.1&color=blue&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=Desenvolvimento&color=oragen&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=Desenvolvimento&color=orange&style=for-the-badge"/>
 </p>
 <br>
 
@@ -24,8 +24,8 @@
 
 ## Descrição do Projeto 
 
-<p align="justify">Para treinar os conceitos aprendidos durantes os cursos de <strong>HTML5</strong> e <strong>CSS3</strong> da Alura, resolvi desenvolver esse site sobre um <strong>RPG</strong> (<em>role-playing game</em>) chamado <strong>Dungeons and Dragons</strong> (abreviado como D&D). O tema foi escolhido por ser um tema que vem crescendo com o tempo e se tornando um hobbie cada vez mais popular e presente na culturar pop.  Outro motivo é o espaço que o <strong>RPG</strong> vem ganhando na área escolar como um método de ensino, onde os professorers podem inserir conteúdos e testar habilidades na sala de aula de forma mais lúdica.</p>
-<p align="justify">Cada página tem um foco específico:</p>
+<p align="justify">Para treinar os conceitos aprendidos durantes os cursos de <strong>HTML5</strong> e <strong>CSS3</strong> da Alura, resolvi desenvolver esse site sobre um <strong>RPG</strong> (<em>role-playing game</em>) chamado <strong><em>Dungeons and Dragons</em></strong> (abreviado como <strong>D&D</strong>). Essa temática foi escolhida por ser um tema que vem crescendo nos últimos anos e se tornando um hobbie cada vez mais popular e presente na culturar pop. Exemplo desse crescimento e importância é sua aplicação na área escolar como um método de ensino, onde os professorers podem inserir conteúdos e testar habilidades na sala de aula de forma mais lúdica. Outro motivo para escolha desse tema é a facilidade de encontrar conteúdo e imagens sobre <strong>D&D</strong> para compor a identidade visual do site.</p>
+<p align="justify">Cada página tem o seguinte foco:</p>
 
 - Home: A;
 - Jogo: A;
@@ -44,6 +44,12 @@
 - Interações dos elementos da página com o cursor do mouse;
 - Elementos de edição, como o uso de degradê, opacidade e sombra.
 
+<br>
+
+## Deploy
+
+> ...
+  
 <br>
   
 ## Tecnologias Utilizadas
