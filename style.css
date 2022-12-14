@@ -252,6 +252,24 @@ footer {
 	color: #FFFFFF;
 }
 
+.jogadores {
+	width: 35%;
+	margin: 25px 0;
+	transition: 400ms;
+}
+
+.jogadores:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px 2px #FFFFFF;
+}
+
+.l-jogadores {
+	width: 60%;
+	margin-left: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 /*Sessão Papel do Dungeon Master*/
 
 .dungeon-master {
