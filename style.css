@@ -282,3 +282,47 @@ footer {
 .espaço-esquerda {
 	padding-left: 20px;
 }
+
+
+/*Página Personagem*/
+
+/*Sessão ???*/
+
+.largura-classes {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.titulo-classes {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Carter One', cursive;
+	margin: 1em 0 1em;
+}
+
+h3 {
+	margin: 0 0 0.8em;
+	font-family: 'Carter One', cursive;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lista-classes p {
+	margin: 0 0 1em;
+	font-family: 'Heebo', sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.lista-classes li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1em 1em 1em;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
