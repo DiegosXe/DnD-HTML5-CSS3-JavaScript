@@ -209,6 +209,7 @@ footer {
 	font-family: 'Carter One', cursive;
 	margin: 0 0 1em;
 	clear: right;
+	clear: left;
 }
 
 .comecando, .papel-jogadores, .papel-dungeon-master {
@@ -253,21 +254,15 @@ footer {
 }
 
 .jogadores {
-	width: 35%;
-	margin: 25px 0;
+	width: 500px;
+	float: left;
+	margin: 20px 40px 20px 0px;
 	transition: 400ms;
 }
 
 .jogadores:hover {
 	transform: scale(1.05);
 	box-shadow: 0 0 10px 2px #FFFFFF;
-}
-
-.l-jogadores {
-	width: 61.8%;
-	margin-left: 3.2%;
-	display: inline-block;
-	vertical-align: top;
 }
 
 /*Sessão Papel do Dungeon Master*/
@@ -293,11 +288,15 @@ footer {
 	margin: 0 auto;
 }
 
+.classes-personagem {
+	padding: 2em 0;
+}
+
 .titulo-classes {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Carter One', cursive;
-	margin: 1em 0 1em;
+	margin: 0 0 1em;
 }
 
 .classes-personagem h3 {
