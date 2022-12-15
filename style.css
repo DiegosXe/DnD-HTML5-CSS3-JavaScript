@@ -308,10 +308,14 @@ footer {
 }
 
 .lista-classes p {
-	margin: 1em 0 1em;
+	margin: 0.9em 0 0;
 	font-family: 'Heebo', sans-serif;
 	font-size: 0.9em;
 	text-align: center;
+}
+
+.img-classe {
+	margin: 0.9em 0 0;
 }
 
 .lista-classes li {
