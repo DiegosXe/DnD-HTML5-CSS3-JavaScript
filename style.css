@@ -283,16 +283,16 @@ footer {
 
 /*Sessão ???*/
 
-.largura-criando, .largura-raças, .largura-classes {
+.largura-criando, .largura-raças, .largura-classes, .largura-antecedentes {
 	width: 1280px;
 	margin: 0 auto;
 }
 
-.criando-personagem, .raças-personagem, .classes-personagem {
+.criando-personagem, .raças-personagem, .classes-personagem, .antecedentes.personagem {
 	padding: 2em 0;
 }
 
-.titulo-criando, .titulo-raças, .titulo-classes {
+.titulo-criando, .titulo-raças, .titulo-classes, .titulo-antecedentes {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Carter One', cursive;
