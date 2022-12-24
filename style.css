@@ -283,16 +283,16 @@ footer {
 
 /*Sessão ???*/
 
-.largura-classes {
+.largura-criando, .largura-raças, .largura-classes {
 	width: 1280px;
 	margin: 0 auto;
 }
 
-.classes-personagem {
+.criando-personagem, .raças-personagem, .classes-personagem {
 	padding: 2em 0;
 }
 
-.titulo-classes {
+.titulo-criando, .titulo-raças, .titulo-classes {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Carter One', cursive;
