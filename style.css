@@ -103,7 +103,7 @@ footer {
 }
 
 .sobrednd strong, .futuro strong, .texto-mapa strong, .comecando strong, .papel-jogadores strong, 
-.papel-dungeon-master strong, .classes-personagem strong {
+.papel-dungeon-master strong, .classes-personagem strong, .criando-personagem strong {
 	font-weight: bold;
 }
 
@@ -157,7 +157,7 @@ footer {
 	transition: 400ms;
 }
 
-.mesa-rpg:hover, .castle:hover, .dungeon-master:hover {
+.mesa-rpg:hover, .castle:hover, .dungeon-master:hover, .dnd-dices:hover {
 	transform: scale(1.05);
 	box-shadow: 0 0 10px 2px #000000;
 }
@@ -276,12 +276,13 @@ footer {
 
 .espaço-esquerda {
 	padding-left: 20px;
+	font-style: italic;
 }
 
 
 /*Página Personagem*/
 
-/*Sessão ???*/
+/*Seção Criando um Personagem*/
 
 .largura-criando, .largura-raças, .largura-classes, .largura-antecedentes {
 	width: 1280px;
@@ -297,7 +298,24 @@ footer {
 	font-size: 2em;
 	font-family: 'Carter One', cursive;
 	margin: 0 0 1em;
+	clear: right;
 }
+
+.criando-personagem p {
+	margin: 0 0 1em;
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+.dnd-dices {
+	width: 250px;
+	float: right;
+	margin: 0px 0 0px 40px;
+	transition: 400ms;
+}
+
+/*Seção Classes de Personagem*/
 
 .classes-personagem h3 {
 	margin: 0;
