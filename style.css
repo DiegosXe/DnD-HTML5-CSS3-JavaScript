@@ -103,7 +103,8 @@ footer {
 }
 
 .sobrednd strong, .futuro strong, .texto-mapa strong, .comecando strong, .papel-jogadores strong, 
-.papel-dungeon-master strong, .classes-personagem strong, .criando-personagem strong {
+.papel-dungeon-master strong, .criando-personagem strong, .raças-personagem strong, 
+.classes-personagem strong {
 	font-weight: bold;
 }
 
@@ -315,9 +316,16 @@ footer {
 	transition: 400ms;
 }
 
-/*Seção Classes de Personagem*/
+/*Seção Raças e Classes de Personagem*/
 
-.classes-personagem h3 {
+.paragrafo-raça, .paragrafo-classe {
+	margin: 0 0 1em;
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.raças-personagem h3, .classes-personagem h3 {
 	margin: 0;
 	font-family: 'Carter One', cursive;
 	font-size: 1.3em;
@@ -325,33 +333,41 @@ footer {
 	text-align: center;
 }
 
-.lista-classes p {
+.lista-raças p, .lista-classes p {
 	margin: 0.9em 0 0;
 	font-family: 'Heebo', sans-serif;
 	font-size: 0.9em;
 	text-align: center;
 }
 
-.img-classe {
+.img-raças {
 	margin: 0.9em 0 0;
+	width: 200px;
+	height: 150px;
 }
 
-.lista-classes li {
+.img-classe {
+	margin: 0.9em 0 0;
+	width: 175px;
+	height: 175px;
+}
+
+.lista-raças li, .lista-classes li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
-	margin: 0 1em 1em 1em;
+	margin: 1em 1em 0 1em;
 	padding: 20px;
 	box-sizing: border-box;
 	border: 4px solid #000000;
 	border-radius: 10px;
 }
 
-.lista-classes li:hover {
+.lista-raças li:hover, .lista-classes li:hover {
 	border-color: red;
 }
 
-.lista-classes li:hover h3 {
+.lista-raças li:hover h3, .lista-classes li:hover h3 {
 	color: red;
 }
