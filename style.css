@@ -104,7 +104,7 @@ footer {
 
 .sobrednd strong, .futuro strong, .texto-mapa strong, .comecando strong, .papel-jogadores strong, 
 .papel-dungeon-master strong, .criando-personagem strong, .raças-personagem strong, 
-.classes-personagem strong {
+.classes-personagem strong, .antecedentes-personagem strong {
 	font-weight: bold;
 }
 
@@ -145,7 +145,7 @@ footer {
 	vertical-align: top;
 }
 
-.itens {
+.lista-vantagens li {
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.1em;
 	font-style: italic;
@@ -318,7 +318,7 @@ footer {
 
 /*Seção Raças e Classes de Personagem*/
 
-.paragrafo-raça, .paragrafo-classe {
+.paragrafo-raça, .paragrafo-classe, .paragrafo-antecedente {
 	margin: 0 0 1em;
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.1em;
@@ -370,4 +370,22 @@ footer {
 
 .lista-raças li:hover h3, .lista-classes li:hover h3 {
 	color: red;
+}
+
+.antecedentes-personagem h4 {
+	margin: 0 0 1em;
+	padding-top: 1em;
+	font-family: 'Carter One', cursive;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.lista-antecedentes {
+	margin: 0 0 2em;
+}
+
+.lista-antecedentes li {
+	font-family: 'Heebo', sans-serif;
+	font-size: 1.1em;
+	line-height: 2em;
 }
