@@ -554,11 +554,13 @@ form legend {
 
 /*Caixa de Opções*/
 
+/*Colocando a caixa em posição relativa e atribuindo a fonte do texto*/
 .papel-rpg {
   position: relative;
   font-family: 'Heebo', sans-serif;
 }
 
+/*Esconder a caixa original de seleção*/
 .papel-rpg select {
   display: none;
 }
@@ -567,6 +569,7 @@ form legend {
   background-color: red;
 }
 
+/*Mudando estilo da seta dentro da caixa de seleção*/
 .select-selected:after {
   position: absolute;
   content: "";
@@ -578,11 +581,13 @@ form legend {
   border-color: #fff transparent transparent transparent;
 }
 
+/*Mudando a direção da seta quando aberta*/
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
 
+/*Estilo das opções e do item selecionado*/
 .select-items div,.select-selected {
   color: #ffffff;
   padding: 8px 16px;
@@ -591,6 +596,7 @@ form legend {
   cursor: pointer;
 }
 
+/*Estilo das opções*/
 .select-items {
   position: absolute;
   background-color: red;
@@ -600,6 +606,7 @@ form legend {
   z-index: 99;
 }
 
+/*Esconde os itens quando a caixa é fechada*/
 .select-hide {
   display: none;
 }
@@ -607,6 +614,8 @@ form legend {
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+/*Botão de Enviar Formulário*/
 
 .enviar {
 	width:35%;

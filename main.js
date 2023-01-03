@@ -1,22 +1,24 @@
 var x, i, j, l, ll, selElmnt, a, b, c;
-
+/*Procurando os elementos com a classe "papel-rpg"*/
 x = document.getElementsByClassName("papel-rpg");
 l = x.length;
 for (i = 0; i < l; i++) {
   selElmnt = x[i].getElementsByTagName("select")[0];
   ll = selElmnt.length;
-
+  /*Para cada elemento, cria uma nova div para atuar como o item selecionado*/
   a = document.createElement("DIV");
   a.setAttribute("class", "select-selected");
   a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
   x[i].appendChild(a);
-
+  /*Para cada elemento, cria uma nova div que vai conter a lista de opções*/
   b = document.createElement("DIV");
   b.setAttribute("class", "select-items select-hide");
   for (j = 1; j < ll; j++) {
+    /*Para cada elemento select, cria uma nova div que funciona como um item da opção*/
     c = document.createElement("DIV");
     c.innerHTML = selElmnt.options[j].innerHTML;
     c.addEventListener("click", function (e) {
+      /*Quando um item é clicado, atualiza a caixa de seleção original e o item selecionado*/
       var y, i, k, s, h, sl, yl;
       s = this.parentNode.parentNode.getElementsByTagName("select")[0];
       sl = s.length;
@@ -40,6 +42,8 @@ for (i = 0; i < l; i++) {
   }
   x[i].appendChild(b);
   a.addEventListener("click", function (e) {
+    /*Quando a caixa de seleção for clicada, feche todas as outras caixas de seleção e abre/fecha a caixa de 
+    seleção atual*/
     e.stopPropagation();
     closeAllSelect(this);
     this.nextSibling.classList.toggle("select-hide");
@@ -47,6 +51,7 @@ for (i = 0; i < l; i++) {
   });
 }
 function closeAllSelect(elmnt) {
+  /*uma função que fechará todas as caixas de seleção, exceto a caixa de seleção atual:*/
   var x,
     y,
     i,
@@ -70,5 +75,5 @@ function closeAllSelect(elmnt) {
     }
   }
 }
-
+/*Se o usuário clicar em qualquer lugar fora da caixa de seleção, fecha todas as caixas de seleção:*/
 document.addEventListener("click", closeAllSelect);
