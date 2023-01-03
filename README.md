@@ -1,6 +1,6 @@
 <p align='center'><img src="dnd-banner.jpg" alt="Imagem da Barbearia"></p>
 
-<h1 align="center">Barbearia Alura</h1>
+<h1 align="center">Site de Dungeons and Dragons</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=VSCode&message=1.73.1&color=blue&style=for-the-badge"/>
@@ -56,6 +56,7 @@
   
 - `HTML5`
 - `CSS3`
+- `JavaScript`
   
 <br>
 
