@@ -459,8 +459,8 @@ form legend {
 	position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   background-color: #eee;
 }
 
@@ -483,10 +483,10 @@ form legend {
 }
 
 .checkbox .checkmark1:after {
-  left: 7px;
+  left: 5px;
   top: 1px;
-  width: 5px;
-  height: 10px;
+  width: 4px;
+  height: 8px;
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
@@ -496,7 +496,7 @@ form legend {
 
 /*Bolinhas de Escolhas*/
 
-.option1, .option2 {
+.option {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -509,13 +509,13 @@ form legend {
   user-select: none;
 }
 
-.option1 input, .option2 input {
+.option input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-.checkmark2, .checkmark3 {
+.checkmark2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -525,25 +525,25 @@ form legend {
   border-radius: 50%;
 }
 
-.option1:hover input ~ .checkmark2, .option2:hover input ~ .checkmark3 {
+.option:hover input ~ .checkmark2 {
   background-color: #ccc;
 }
 
-.option1 input:checked ~ .checkmark2, .option2 input:checked ~ .checkmark3 {
+.option input:checked ~ .checkmark2 {
   background-color: red;
 }
 
-.checkmark2:after, .checkmark3:after {
+.checkmark2:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.option1 input:checked ~ .checkmark2:after, .option2 input:checked ~ .checkmark3:after {
+.option input:checked ~ .checkmark2:after {
   display: block;
 }
 
-.option1 .checkmark2:after, .option2 .checkmark3:after {
+.option .checkmark2:after {
  	top: 5.5px;
 	left: 5.5px;
 	width: 6px;
