@@ -372,6 +372,8 @@ footer {
 	color: red;
 }
 
+/*Seção de Antecedentes*/
+
 .antecedentes-personagem h4 {
 	margin: 0 0 1em;
 	padding-top: 1em;
@@ -392,4 +394,44 @@ footer {
 
 .lista-antecedentes li:hover strong{
 	color: red;
+}
+
+
+/*Página Enquete*/
+
+form {
+	width: 1280px;
+	margin: 40px auto;
+}
+
+form label {
+	display: block;
+	font-size: 1.1em;
+	font-family: 'Heebo', sans-serif;
+	margin: 1em 0 0.5em;
+}
+
+form legend {
+	display: block;
+	font-size: 1.1em;
+	font-family: 'Heebo', sans-serif;
+	margin: 0 0 0.5em;
+	padding: 1em 0 0;
+}
+
+.opcoes-raca label, .opcoes-classe label {
+	margin: 0 0 0.5em;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 1em;
+	padding: 10px 25px;
+	font-family: 'Heebo', sans-serif;
+	font-size: 0.9em;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 2em 0 1em;
 }
