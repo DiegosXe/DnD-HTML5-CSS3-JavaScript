@@ -48,7 +48,7 @@
 
 ## Deploy
 
-> ...
+> https://diegosxe.github.io/DnD-HTML5-CSS3-JavaScript/
   
 <br>
   
