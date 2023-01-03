@@ -432,6 +432,8 @@ form legend {
 	width: 50%;
 }
 
+/*Checkbox*/
+
 .checkbox {
 	margin: 2em 0 1em;
 	display: block;
@@ -492,7 +494,9 @@ form legend {
   transform: rotate(45deg);
 }
 
-.option {
+/*Bolinhas de Escolhas*/
+
+.option1, .option2 {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -505,13 +509,13 @@ form legend {
   user-select: none;
 }
 
-.option input {
+.option1 input, .option2 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-.checkmark2 {
+.checkmark2, .checkmark3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -521,31 +525,87 @@ form legend {
   border-radius: 50%;
 }
 
-.option:hover input ~ .checkmark2 {
+.option1:hover input ~ .checkmark2, .option2:hover input ~ .checkmark3 {
   background-color: #ccc;
 }
 
-.option input:checked ~ .checkmark2 {
+.option1 input:checked ~ .checkmark2, .option2 input:checked ~ .checkmark3 {
   background-color: red;
 }
 
-.checkmark2:after {
+.checkmark2:after, .checkmark3:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.option input:checked ~ .checkmark2:after {
+.option1 input:checked ~ .checkmark2:after, .option2 input:checked ~ .checkmark3:after {
   display: block;
 }
 
-.option .checkmark2:after {
+.option1 .checkmark2:after, .option2 .checkmark3:after {
  	top: 5.5px;
 	left: 5.5px;
 	width: 6px;
 	height: 6px;
 	border-radius: 50%;
 	background: white;
+}
+
+/*Caixa de Opções*/
+
+.papel-rpg {
+  position: relative;
+  font-family: 'Heebo', sans-serif;
+}
+
+.papel-rpg select {
+  display: none;
+}
+
+.select-selected {
+  background-color: red;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: red;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .enviar {
