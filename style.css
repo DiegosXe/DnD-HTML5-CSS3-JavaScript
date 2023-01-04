@@ -657,7 +657,8 @@ form legend {
 /*CSS para dispositivos móveis*/
 
 @media screen and (max-width: 480px) {
-	.bloco, .sobrednd, .largura-sobrednd, .conteudo-vantagens, .futuro, .texto-mapa, footer {
+	.bloco, .sobrednd, .largura-sobrednd, .conteudo-vantagens, .futuro, .texto-mapa, footer, .largura-comecando, 
+	.largura-jogadores, .largura-dungeon-master {
 		width: auto;
 	}
 
@@ -679,8 +680,12 @@ form legend {
 		width: 35%;
 	}
 
-	.titulo-principal {
+	.titulo-principal, .titulo-jogadores, .titulo-dungeon-master {
 		font-size: 1.4em;
+	}
+
+	.titulo-comecando {
+		font-size: 1.2em;
 	}
 
 	.dice {
@@ -688,12 +693,13 @@ form legend {
 		margin-left: 0.5em;
 	}
 
-	.sobrednd p:not(.finalidade), .futuro p, .mapa p {
+	.sobrednd p:not(.finalidade), .futuro p, .mapa p, .comecando p:not(.trecho), .papel-jogadores p, 
+	.papel-dungeon-master p {
 		margin: 0 0.5em 0.8em 0.5em;
 		font-size: 1em;
 	}
 
-	.finalidade {
+	.finalidade, .trecho {
 		margin: 2em 2em 2em 2em;
 		font-size: 1em;
 	}
@@ -711,4 +717,13 @@ form legend {
 		width: 95%;
 		margin: 0 2.5%;
 	}	
+
+	.castle, .jogadores, .dungeon-master {
+		width: 90%;
+		margin: 0 5% 0.8em;
+	}
+
+	.espaço-esquerda {
+		padding: 0 0.5em;
+	}
 }
