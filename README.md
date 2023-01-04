@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=VSCode&message=1.73.1&color=blue&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=Desenvolvimento&color=orange&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=GREEN&style=for-the-badge"/>
 </p>
 <br>
 
@@ -24,13 +24,13 @@
 
 ## Descrição do Projeto 
 
-<p align="justify">Para treinar os conceitos aprendidos durantes os cursos de <strong>HTML5</strong> e <strong>CSS3</strong> da Alura, resolvi desenvolver esse site sobre um <strong>RPG</strong> (<em>role-playing game</em>) chamado <strong><em>Dungeons and Dragons</em></strong> (abreviado como <strong>D&D</strong>). Essa temática foi escolhida por ser um tema que vem crescendo nos últimos anos e se tornando um hobbie cada vez mais popular e presente na culturar pop. Exemplo desse crescimento e importância é sua aplicação na área escolar como um método de ensino, onde os professorers podem inserir conteúdos e testar habilidades na sala de aula de forma mais lúdica. Outro motivo para escolha desse tema é a facilidade de encontrar conteúdo e imagens sobre <strong>D&D</strong> para compor a identidade visual do site.</p>
+<p align="justify">Para treinar os conceitos aprendidos durantes os cursos de <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>JavaScrpit</strong> da Alura, resolvi desenvolver esse site sobre um <strong>RPG</strong> (<em>role-playing game</em>) chamado <strong><em>Dungeons and Dragons</em></strong> (abreviado como <strong>D&D</strong>). Essa temática foi escolhida por ser um tema que vem crescendo nos últimos anos e se tornando um hobbie cada vez mais popular e presente na culturar pop. Exemplo desse crescimento e importância é sua aplicação na área escolar como um método de ensino, onde os professorers podem inserir conteúdos e testar habilidades na sala de aula de forma mais lúdica. Outro motivo para escolha desse tema é a facilidade de encontrar conteúdo e imagens sobre <strong>D&D</strong> para compor a identidade visual do site.</p>
 <p align="justify">Cada página tem o seguinte foco:</p>
 
-- Home: A;
-- Jogo: A;
-- Personagem: A;
-- Enquete: A.
+- <strong>Home:</strong> Nessa página encontra-se uma breve apresentação sobre RPG e D&D, contendo informações como quem criou o D&D e as vantagems de jogar D&D. A página home também possui um vídeo falando sobre o futuro do D&D e um mapa mostrando a localização da empresa que pública os livros;
+- <strong>Jogo:</strong> Nessa página faz uma introdução de como é jogar D&D e quais os papeis desempenhados pelos jogadores e pelo mestre;
+- <strong>Personagem:</strong> Nessa página é a apresentada os aspectos para a criação de personagem, além de informações sobre raças, classes e antecedentes disponíveis para os jogadores escolherem para construir seus personagens;
+- <strong>Enquete:</strong> Uma pequena enquete para colher algumas informações de quem visita o site, como nome, telefone e e-mail, além de saber se já jogaram D&D antes e quais sua raça e sua classe favorita.
 
 <p align="justify">Para criar essas páginas várias funcionalidades foram aplicadas, por exemplo:</p>
 
@@ -40,9 +40,10 @@
 - Uso e formatação de listas;
 - Adição de elementos externos como vídeos e mapas;
 - Adição de links para permitir a navegação entre as páginas;
-- Introdução de formulário para ......??????;
+- Introdução de formulário para coletar informações dos usuários do site;
 - Interações dos elementos da página com o cursor do mouse;
 - Elementos de edição, como o uso de degradê, opacidade e sombra.
+- Uso do JavaScript para poder conferir um novo estilo para a caixa de seleção de opções presente na enquete.
 
 <br>
 
