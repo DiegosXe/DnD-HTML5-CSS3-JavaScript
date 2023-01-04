@@ -652,3 +652,63 @@ form legend {
 	transform: scale(1.1);
 	box-shadow: 0 0 10px 2px #000000;
 }
+
+
+/*CSS para dispositivos móveis*/
+
+@media screen and (max-width: 480px) {
+	.bloco, .sobrednd, .largura-sobrednd, .conteudo-vantagens, .futuro, .texto-mapa, footer {
+		width: auto;
+	}
+
+	.logo {
+		margin: auto;
+  	display: block;
+		width: 50%;
+	}
+
+	nav {
+		position: static;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+
+	.logo-sigla {
+		width: 35%;
+	}
+
+	.titulo-principal {
+		font-size: 1.4em;
+	}
+
+	.dice {
+		width: 80px;
+		margin-left: 0.5em;
+	}
+
+	.sobrednd p:not(.finalidade), .futuro p, .mapa p {
+		margin: 0 0.5em 0.8em 0.5em;
+		font-size: 1em;
+	}
+
+	.finalidade {
+		margin: 2em 2em 2em 2em;
+		font-size: 1em;
+	}
+
+	.lista-vantagens, .mesa-rpg {
+		width: 90%;
+		margin: 0 5% 1em;
+	}
+
+	.lista-vantagens li {
+		font-size: 1em;
+	}
+
+	.video, .mapa-conteudo {
+		width: 95%;
+		margin: 0 2.5%;
+	}	
+}
