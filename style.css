@@ -577,6 +577,7 @@ form legend {
 
 /*Colocando a caixa em posição relativa e atribuindo a fonte do texto*/
 .papel-rpg {
+	width: 12.5em;
   position: relative;
   font-family: 'Heebo', sans-serif;
 }
@@ -752,5 +753,10 @@ form legend {
 	.antecedentes-personagem h4 {
 		font-size: 1.4em;
 		margin: 0 5% 1em;
+	}
+
+	form, .enviar {
+		width: 90%;
+		margin: 1em;
 	}
 }
