@@ -759,4 +759,8 @@ form legend {
 		width: 90%;
 		margin: 1em;
 	}
+
+	.input-padrao {
+	width: 85%;
+	}
 }
