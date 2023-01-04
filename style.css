@@ -149,7 +149,7 @@ footer {
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.1em;
 	font-style: italic;
-	line-height: 2em;
+	margin: 0 0 1em;
 }
 
 .mesa-rpg {
@@ -211,6 +211,11 @@ footer {
 	margin: 0 0 1em;
 	clear: right;
 	clear: left;
+}
+
+.comecando, .papel-dungeon-master, .criando-personagem, .raças-personagem, .classes-personagem, 
+.antecedentes-personagem, form {
+	background: #FEFEFE;
 }
 
 .comecando, .papel-jogadores, .papel-dungeon-master {
@@ -389,7 +394,7 @@ footer {
 .lista-antecedentes li {
 	font-family: 'Heebo', sans-serif;
 	font-size: 1.1em;
-	line-height: 2em;
+	margin: 0 0 1em;
 }
 
 .lista-antecedentes li:hover strong{
@@ -495,7 +500,7 @@ form legend {
   top: 1px;
   width: 4px;
   height: 8px;
-  border: solid white;
+  border: solid #FEFEFE;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -565,7 +570,7 @@ form legend {
 	width: 6px;
 	height: 6px;
 	border-radius: 50%;
-	background: white;
+	background: #FEFEFE;
 }
 
 /*Caixa de Opções*/
@@ -658,7 +663,8 @@ form legend {
 
 @media screen and (max-width: 480px) {
 	.bloco, .sobrednd, .largura-sobrednd, .conteudo-vantagens, .futuro, .texto-mapa, footer, .largura-comecando, 
-	.largura-jogadores, .largura-dungeon-master {
+	.largura-jogadores, .largura-dungeon-master, .largura-criando, .largura-raças, .largura-classes,
+	.largura-antecedentes {
 		width: auto;
 	}
 
@@ -680,7 +686,8 @@ form legend {
 		width: 35%;
 	}
 
-	.titulo-principal, .titulo-jogadores, .titulo-dungeon-master {
+	.titulo-principal, .titulo-jogadores, .titulo-dungeon-master, .titulo-criando, .titulo-raças, .titulo-classes,
+	.titulo-antecedentes {
 		font-size: 1.4em;
 	}
 
@@ -694,7 +701,8 @@ form legend {
 	}
 
 	.sobrednd p:not(.finalidade), .futuro p, .mapa p, .comecando p:not(.trecho), .papel-jogadores p, 
-	.papel-dungeon-master p {
+	.papel-dungeon-master p, .criando-personagem p, .raças-personagem p, .classes-personagem p, 
+	.antecedentes-personagem p {
 		margin: 0 0.5em 0.8em 0.5em;
 		font-size: 1em;
 	}
@@ -704,7 +712,7 @@ form legend {
 		font-size: 1em;
 	}
 
-	.lista-vantagens, .mesa-rpg {
+	.lista-vantagens, .mesa-rpg, .lista-antecedentes {
 		width: 90%;
 		margin: 0 5% 1em;
 	}
@@ -725,5 +733,24 @@ form legend {
 
 	.espaço-esquerda {
 		padding: 0 0.5em;
+	}
+
+	.dnd-dices {
+		width: 10em;
+		margin: 0 1em;
+	}
+
+	.lista-raças h3, .lista-classes h3 {
+		margin-bottom: 0.5em;
+	}
+
+	.lista-raças li, .lista-classes li {
+		width: 95%;
+		margin: 0 2.5% 1em;
+	}
+
+	.antecedentes-personagem h4 {
+		font-size: 1.4em;
+		margin: 0 5% 1em;
 	}
 }
