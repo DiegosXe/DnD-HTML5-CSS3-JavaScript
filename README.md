@@ -1,3 +1,5 @@
+<p align="center"><img src="https://skaldforge.files.wordpress.com/2019/08/adventures-in-icespire.jpg#vitrinedev"><br>
+
 <h1 align="center">Site de Dungeons and Dragons</h1>
 
 <p align="center">
@@ -5,11 +7,9 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=GREEN&style=for-the-badge"/>
 </p>
 
-![](https://skaldforge.files.wordpress.com/2019/08/adventures-in-icespire.jpg#vitrinedev)
-
 <br>
 
-## Sumário 
+### Sumário 
 
 🔹 [Descrição do Projeto](#descrição-do-projeto)
 
