@@ -33,6 +33,9 @@
 - <strong>Personagem:</strong> Nessa página é a apresentada os aspectos para a criação de personagem, além de informações sobre raças, classes e antecedentes disponíveis para os jogadores escolherem para construir seus personagens;
 - <strong>Enquete:</strong> Uma pequena enquete para colher algumas informações de quem visita o site, como nome, telefone e e-mail, além de saber se já jogaram D&D antes e quais sua raça e sua classe favorita.
 
+<br>
+<br>
+
 <p align="justify">Para criar essas páginas várias funcionalidades foram aplicadas, por exemplo:</p>
 
 - Criação de cabeçalho e rodapé para manter uma identidade visual nas páginas;
@@ -56,7 +59,7 @@
   
 ## Tecnologias Utilizadas
   
-- `HTML5`
+- `HTML5` 
 - `CSS3`
 - `JavaScript`
   
